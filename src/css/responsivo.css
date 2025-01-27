@@ -1,4 +1,4 @@
-@media(max-width:768px) {
+@media(max-width: 768px) {
     body {
         background-position: center;
         padding: 0 15px;
@@ -8,35 +8,42 @@
         gap: 10px;
     }
 }
-@media(max-width:496px){
-    .lista-personagens{
+
+@media(max-width: 496px) {
+    .lista-personagens {
         width: 250px;
     }
-    .lista-carta{
+
+    .imagem-carta {
         width: 100%;
     }
-    .slider{
+
+    .slider {
         position: relative;
     }
-    .btn-seta{
+
+    .btn-seta {
         position: absolute;
-        bottom: -13px;
+        bottom: -13%;
     }
-    #btn-avancar{
+
+    #btn-avancar {
         right: 20%;
     }
-    #btn-voltar{
+
+    #btn-voltar {
         left: 20%;
     }
 }
-@media(max-width: 375px){
-    body{
+
+@media(max-width: 375px) {
+    body {
         justify-content: start;
         padding-top: 10px;
         gap: 10px;
     }
-    .cabecalho{
+
+    .cabecalho {
         font-size: 12px;
     }
-        
 }
